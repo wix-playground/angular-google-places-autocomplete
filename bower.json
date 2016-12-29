@@ -1,5 +1,5 @@
 {
-  "name": "angular-google-places-autocomplete",
+  "name": "wix-angular-google-places-autocomplete",
   "version": "0.2.7",
   "main": [
       "./src/autocomplete.js",

@@ -360,7 +360,7 @@ angular.module('google.places', [])
                 });
 
                 $window.onresize = function () {
-                    $scope.$apply(function () {
+                    $scope.$applyAsync(function () {
                         $scope.position = getDrawerPosition($scope.input);
                     });
                 };
